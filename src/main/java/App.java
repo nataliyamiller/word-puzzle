@@ -24,7 +24,10 @@ public class App {
         for (Integer i = 0; i < userInput.length(); i++) {
           if ((userInput.charAt(i) == 'a') || (userInput.charAt(i) == 'e') || (userInput.charAt(i) == 'i')|| (userInput.charAt(i) == 'o') || (userInput.charAt(i) == 'u')){
             finalString += '-';
-          } else {
+          } else if ((userInput.charAt(i) == 'A') || (userInput.charAt(i) == 'E') || (userInput.charAt(i) == 'I')|| (userInput.charAt(i) == 'O') || (userInput.charAt(i) == 'U')){
+            finalString += '-';
+          }
+          else {
             finalString += userInput.charAt(i);
           }
         }

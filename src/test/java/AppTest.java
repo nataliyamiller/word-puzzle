@@ -20,7 +20,7 @@ public class AppTest {
     @Test
     public void ifProgramReplacesCapitalVowelEWithTheDashSymbol_String() {
       App yourApp = new App();
-        String test = "-go";
+        String test = "-g-";
         assertEquals(test, yourApp.yourMethodName("Ego"));
     }
 }
