@@ -5,26 +5,37 @@ Epicodus Java/Android Summer 2015
 First Week Java BDD Code Review
 
 
+
+
 --->DESCRIPTION<---
+
 Word-Puzzle application takes user input and replaces all the vowels with the dash symbol "-" 
 creating a word puzzle to solve. Because the resulting word puzzle appears on a new page, 
 it makes it hard for another player to guess it. 
 The program accepts any input (letters, numbers, special characters). 
 
+
+
 -->EXAMPLE<--
+
 user inputs "Cat is here since 5 am", the program converts this input to a puzzle "C-t is h-r- s-nc- 5 -m". 
 Enjoy! :-)
 
 
+
+
 -SETUP INSTRUCTIONS-
+
 Clone this repository
 Run with Gradle ("gradle run" command)
 Open localhost:4567 in your browser
 
-To run JUnit and FluentLenium tests use "gradle test" command
+Note: To run JUnit and FluentLenium tests use "gradle test" command
+
 
 
 -TECHNOLOGIES USED-
+
 Java version 8 update 45
 Velocity version 1.7
 Spark version 2.1
