@@ -44,10 +44,11 @@ FluentLenium version 0.10.3
 Copyright © 8/14/15 Nataliya Bareeva-Miller
 Contact info: <hidden for privacy purposes>
 
+**************
 
-| --I tried to check if user's input is a string (wanted to allow only string inputs), however,
-| I was not able to find/implement a good solution. I found this method, but not sure how I can 
-| use it in my program. Help needed :-)
+ I tried to check if user's input is a string (wanted to allow only string inputs), however,
+ I was not able to find/implement a good solution. I found this method, but not sure how I can 
+ use it in my program. Help needed :-)
 
 | *Method:*
 | *try {*
