@@ -11,9 +11,16 @@ public class AppTest {
     // }
 
     @Test
-    public void ifVowelAIsReplacedByTheDashSymbol_String() {
+    public void ifVowelAIsReplacedWithTheDashSymbol_String() {
       App yourApp = new App();
         String test = "c-t";
         assertEquals(test, yourApp.yourMethodName("cat"));
+    }
+
+    @Test
+    public void ifProgramReplacesCapitalVowelEWithTheDashSymbol_String() {
+      App yourApp = new App();
+        String test = "-go";
+        assertEquals(test, yourApp.yourMethodName("Ego"));
     }
 }

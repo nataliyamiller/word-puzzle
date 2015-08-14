@@ -4,6 +4,7 @@ import java.util.HashMap;
 import spark.ModelAndView;
 import spark.template.velocity.VelocityTemplateEngine;
 import static spark.Spark.*;
+import java.util.Scanner;
 
 public class App {
   public static void main (String[] args) {}
@@ -13,13 +14,13 @@ public class App {
       // char[] vowels = {'a', 'e', 'i', 'o', 'u'};
       // String userInput = userStringInput.toLowerCase();
       String finalString = "";
+      // Scanner scan = new Scanner(System.in);
+      // try {
+      //   String s = scan.nextLine();
+      //   int x = Integer.parseInt(s);
+      // } catch (NumberFormatException ex){}
 
-      // if (userInput == null) {
-      //
-      //   finalString += "Please enter a word or a sentence that contains letters only";
-      //
-      //
-      // } else {
+
         for (Integer i = 0; i < userInput.length(); i++) {
           if ((userInput.charAt(i) == 'a') || (userInput.charAt(i) == 'e') || (userInput.charAt(i) == 'i')|| (userInput.charAt(i) == 'o') || (userInput.charAt(i) == 'u')){
             finalString += '-';
@@ -31,4 +32,5 @@ public class App {
 
       return finalString;
     }
+
   }

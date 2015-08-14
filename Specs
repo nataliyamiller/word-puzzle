@@ -8,7 +8,13 @@ word puzzle to solve.
  
 Example: user enters "1*2",program outputs a prompting message. 
  
-2) User enters a word or a sentence, the program finds all "a" vowels
+//I was able to test this feature, but it was possibly not a good one. Then I was not able to find the correct syntax (or how to use that syntax) to check if user input is a string. PLEASE HELP. 
+
+2) User enters a word,  the program finds all "a" vowels
  and replaces all "a" vowels with a dash symbol.
  
 Example: user enters "Cat": the program should output "C-t". 
+
+3) User enters a word, the program relaces all the vowels with the dash symbol regardless of the vowel's letter case.
+
+Example: user enters "Ego": the program should output "-g-".
