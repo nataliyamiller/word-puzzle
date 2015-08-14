@@ -1,5 +1,7 @@
-**Word-Puzzle Java Project by Natliya Bareeva-Miller**
+**Word-Puzzle Java Project by Nataliya Bareeva-Miller**
+
 **Epicodus Java/Android Summer 2015**
+
 **First Week Java BDD Code Review**
 
 
