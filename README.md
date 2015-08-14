@@ -7,6 +7,8 @@ First Week Java BDD Code Review
 
 
 
+
+
 --->DESCRIPTION<---
 
 Word-Puzzle application takes user input and replaces all the vowels with the dash symbol "-" 
@@ -16,10 +18,14 @@ The program accepts any input (letters, numbers, special characters).
 
 
 
+
+
 -->EXAMPLE<--
 
 user inputs "Cat is here since 5 am", the program converts this input to a puzzle "C-t is h-r- s-nc- 5 -m". 
 Enjoy! :-)
+
+
 
 
 
