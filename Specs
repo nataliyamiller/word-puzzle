@@ -18,3 +18,13 @@ Example: user enters "Cat": the program should output "C-t".
 3) User enters a word, the program relaces all the vowels with the dash symbol regardless of the vowel's letter case.
 
 Example: user enters "Ego": the program should output "-g-".
+
+
+4) User enters a sentence, the program replaces all the vowels with the dash symbol in that sentence. 
+
+Example: user enters "Hello Odilia": the program should output "H-ll- -d-l--" (just one more test to make sure that program works regardless)
+
+5) User enters a sentence that contains numbers and special characters, the program
+excepts the entry and replaces all vowels with the dash symbol (one more final check if the program works with multiple types of inputs).
+
+Example: user enters "Hello Odilia 235*5 years": program should output "H-ll- -d-l-- 235*5 y--rs".
