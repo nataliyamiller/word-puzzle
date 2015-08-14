@@ -11,17 +11,24 @@ public class App {
 
     public static String yourMethodName (String userInput){
       // char[] vowels = {'a', 'e', 'i', 'o', 'u'};
+      // String userInput = userStringInput.toLowerCase();
       String finalString = "";
-      if (userInput instanceof String) {
-          finalString = "Please enter a word or a sentence that contains letters only";
-        // } else {
-        //
-        //   for (Integer i = 0; i < userInput.length(); i++) {
-        //     if (userInput.charAt(i) == 'a') {
-        //       finalString = userInput.replace('a', '-');
-        //     }
-        // }
-      }
+
+      // if (userInput == null) {
+      //
+      //   finalString += "Please enter a word or a sentence that contains letters only";
+      //
+      //
+      // } else {
+        for (Integer i = 0; i < userInput.length(); i++) {
+          if ((userInput.charAt(i) == 'a') || (userInput.charAt(i) == 'e') || (userInput.charAt(i) == 'i')|| (userInput.charAt(i) == 'o') || (userInput.charAt(i) == 'u')){
+            finalString += '-';
+          } else {
+            finalString += userInput.charAt(i);
+          }
+        }
+
+
       return finalString;
     }
   }
