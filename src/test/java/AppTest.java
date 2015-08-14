@@ -23,4 +23,11 @@ public class AppTest {
         String test = "-g-";
         assertEquals(test, yourApp.yourMethodName("Ego"));
     }
+
+    @Test
+    public void ifProgramReplacesAllVowelsEWithTheDashSymbolIfUserEntersASentence_String() {
+      App yourApp = new App();
+        String test = "H-ll- -d-l--";
+        assertEquals(test, yourApp.yourMethodName("Hello Odilia"));
+    }
 }
