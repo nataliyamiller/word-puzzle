@@ -1,6 +1,6 @@
-| *Word-Puzzle Java Project by Natliya Bareeva-Miller*
-| *Epicodus Java/Android Summer 2015*
-| *First Week Java BDD Code Review*
+**Word-Puzzle Java Project by Natliya Bareeva-Miller**
+**Epicodus Java/Android Summer 2015**
+**First Week Java BDD Code Review**
 
 
 -- **DESCRIPTION** --
@@ -15,7 +15,6 @@ The program accepts any input (letters, numbers, special characters).
 
 user inputs "Cat is here since 5 am", the program converts this input to a puzzle "C-t is h-r- s-nc- 5 -m". 
 Enjoy! :-)
-
 
 
 
@@ -52,9 +51,9 @@ Contact info: <hidden for privacy purposes>
 
 | *Method:*
 | *try {*
-int inputNumber = Integer.parseInt(inputString);
-} catch (NumberFormatException exc) {
-// inputString was a String and not a valid Integer
+| *int inputNumber = Integer.parseInt(inputString);*
+| *} catch (NumberFormatException exc) {*
+| *// inputString was a String and not a valid Integer*
 |*}*
 
 
