@@ -3,6 +3,12 @@ Main Task
 Replace vowels in a string with the dash symbol "-" to create a 
 word puzzle to solve. 
 
-1) User needs to enter a string, program verifies that user's input was indeed a string, if not, program returns a message prompting
- user to enter a string. 
-Example: user entered "1*2",program outputs a prompting message.  
+1) User needs to enter a string, program verifies that user's input was indeed a string,
+ if not, program returns a message prompting the  user to enter a string.
+ 
+Example: user enters "1*2",program outputs a prompting message. 
+ 
+2) User enters a word or a sentence, the program finds all "a" vowels
+ and replaces all "a" vowels with a dash symbol.
+ 
+Example: user enters "Cat": the program should output "C-t". 
