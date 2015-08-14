@@ -1,7 +1,7 @@
-| *Word-Puzzle Java Project by Natliya Bareeva-Miller
-| *Epicodus Java/Android Summer 2015
-| *First Week Java BDD Code Review
-| **
+| *Word-Puzzle Java Project by Natliya Bareeva-Miller*
+| *Epicodus Java/Android Summer 2015*
+| *First Week Java BDD Code Review*
+
 
 -- **DESCRIPTION** --
 
@@ -9,9 +9,6 @@ Word-Puzzle application takes user input and replaces all the vowels with the da
 creating a word puzzle to solve. Because the resulting word puzzle appears on a new page, 
 it makes it hard for another player to guess it. 
 The program accepts any input (letters, numbers, special characters). 
-
-
-
 
 
 -- **EXAMPLE** --
@@ -48,16 +45,16 @@ Copyright © 8/14/15 Nataliya Bareeva-Miller
 Contact info: <hidden for privacy purposes>
 
 
--- I tried to check if user's input is a string (wanted to allow only string inputs), however, 
+| * -- I tried to check if user's input is a string (wanted to allow only string inputs), however, 
 I was not able to find/implement a good solution. I found this method, but not sure how I can 
-use it in my program. Help needed :-)
+use it in my program. Help needed :-)*
 
---Method:
-try {
+| *Method:*
+| *try {
 int inputNumber = Integer.parseInt(inputString);
 } catch (NumberFormatException exc) {
 // inputString was a String and not a valid Integer
-}
+}*
 
 
 
